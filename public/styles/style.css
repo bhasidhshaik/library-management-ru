@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --primary-font :'Heebo', sans-serif;
+    --primary-color:#192f59;
+    --span-color: #0be26c;
+    --red-color:#f00;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    list-style: none;
+    text-decoration: none;
+}
+.mobile-nav-container , .mobile-nav-link-container{
+  display: none;
+}
+.book{
+  display: none ;
+}
+
+header{
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    padding: 1.5rem 4rem 2rem 5rem;
+    position: relative;
+    box-shadow:  0 4px 15px 0 #fff;
+}
+/* header::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary-color);
+    left: 0;
+    bottom: 0px;
+} */
+.logo{
+    width: 40%;
+}
+.logo img{
+    width: 18rem;
+}
+.nav-links-container{
+    width: 60%;
+}
+.nav-list{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: .7rem;
+}
+.nav-list li{
+    margin-left: 1rem;
+}
+.nav-list li a{
+    color: var(--primary-color);
+    font-weight: 500;
+    transition: .2s ease-in-out;
+}
+.nav-list li a:hover{
+    color: var(--span-color);
+}
+main{
+    background: #ecf0f3;
+    /* padding-top: 2rem; */
+}
+
+::-webkit-scrollbar{
+  width: 6px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #00f;
+  border-radius: 25px;
+}
+/* ------------------Carousel-------------------- */
+
+.carausole-container{
+    width: 100%;
+    margin-bottom: 3rem;
+    padding: 0;
+
+}
+.swiper {
+    width: 100%;
+    height: 70vh;
+  }
+
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 20px; */
+}
+
+  .swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #fff;
+    opacity: 1;
+    transition: .2s opacity;
+    /* width: 10px; */
+  }
+  .swiper .swiper-button-prev:hover{
+    opacity: 1;
+  }
+  .swiper .swiper-button-next:hover{
+    opacity: 1;
+  }
+
+  .swiper .swiper-pagination-bullet-active:hover{
+    opacity: 1;
+  }
+  .swiper-pagination-bullet{
+    width: 12px !important;
+    height: 12px !important;
+    border: 3px solid #fff;
+    opacity: 1 !important;
+    background-color: transparent !important;
+  }
+  .swiper .swiper-pagination-bullet-active{
+    background-color: #fff !important;
+    width: 15px !important;
+    height: 15px !important;
+    opacity: 1;
+    transition: .2s opacity;
+  }
+
+  /* -------------------TExt Content------------------- */
+  .main-text-container{
+    padding: 0 4.5rem;
+    margin-bottom: 2rem;
+  }
+  .main-text-container h1{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+  }
+  .main-para-content{
+    display: flex;
+  }
+  .main-para-content p{
+    padding: 0 3rem 0 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #313030;
+    margin-bottom: 1rem;
+  }
+  .main-para-content img{
+    height: 18rem;
+    border-left: 10px solid var(--span-color);
+    border-bottom: 10px solid var(--span-color);
+    transition: .3s ease-in;
+    cursor: pointer;
+ 
+  }
+  .main-para-content img:hover{
+    transform: translateY(-30px);
+  }
+  .books-carousel-container{
+
+    background-color: #03045e; 
+    box-shadow:  0 -3px 10px 8px #03045e;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  .books-carousel-container h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+  }
+  .carousel{
+    /* height: 600px;  */
+    perspective: 250px;   
+    
+}
+.carousel .carousel-item {
+	width: 250px !important;
+  height: 300px !important;
+	background: #fff;
+	padding: 2rem 2rem;
+	height: auto;
+	text-align: center;
+    border-radius: 15px;
+}
+.img-area {
+	/* width: 100px; */
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+        .img-area img{
+            height: 140px;
+            border-radius: 10px;
+        }
+        .testi p {
+	color: #000;
+	font-size: 1.4rem;
+	/* line-height: 1.9; */
+  padding-bottom: .5rem;
+  font-weight: 600;
+}
+        .testi h4 {
+	font-size: 1.2rem;
+	margin: 0;
+	color: #3b3b3b;
+  font-weight: 500;
+}
+
+.library-hours-container{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.library-hours-container h4{
+  color: #03045e;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.library-hours-container p{
+  color: #000;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.library-hours-container p.lib-hours{
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.library-hours-container p.closed-timing{
+  color: #f00;
+}
+
+.library-contact{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.library-contact h4{
+  color: #03045e;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.library-contact p{
+  color: #000;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: .5rem;
+}
+.address-library{
+  margin-bottom: 2.5rem;
+}
+.footer-container{
+  background-color: gray;
+  padding: 10px 5px !important;
+  width: 100% !important;
+
+}
+.footer-container h3{
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 600;
+}

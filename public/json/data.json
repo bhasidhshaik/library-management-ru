@@ -1,0 +1,464 @@
+[
+  {
+    "_id": "654a261dff1d77be0695228d",
+    "booktitle": "Physics",
+    "authorname": "BasavaRaj",
+    "publishers": "RUCE",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654a721355ec95dd69c2872c",
+    "booktitle": "Physics",
+    "authorname": "BasavaRaj",
+    "publishers": "RUCE",
+    "programme": "ug"
+  },
+  {
+    "_id": "654a721355ec95dd69c2972c",
+    "booktitle": "Physics",
+    "authorname": "BasavaRaj",
+    "publishers": "RUCE",
+    "programme": "ug"
+  },
+  {
+    "_id": "654a73823b22974e9c221a31",
+    "booktitle": "Title1",
+    "authorname": "Author",
+    "publishers": "Publ",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654a73dfe6fed850b070119a",
+    "booktitle": "jnk",
+    "authorname": "bhjb",
+    "publishers": "bbjhb",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654a73dfe6fed850b070119b",
+    "booktitle": "jh",
+    "authorname": "gg",
+    "publishers": "h",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654a73dfe6fed850b070119c",
+    "booktitle": "hgvhg",
+    "authorname": "hg",
+    "publishers": "gf",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654a73dfe6fed850b070119d",
+    "booktitle": "hgfhf",
+    "authorname": "hgf",
+    "publishers": "h",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654a73dfe6fed850b070119e",
+    "booktitle": "h",
+    "authorname": "gg",
+    "publishers": "hh",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654a747c7176ef6f7b7b2705",
+    "booktitle": "jnk",
+    "authorname": "bhjb",
+    "publishers": "bbjhb",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654a747c7176ef6f7b7b2706",
+    "booktitle": "h,h",
+    "authorname": "h,h",
+    "publishers": "hh",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654a747c7176ef6f7b7b2707",
+    "booktitle": "hh",
+    "authorname": "hbmm",
+    "publishers": "bnmmb",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654a747c7176ef6f7b7b2708",
+    "booktitle": "nmbn",
+    "authorname": "bn",
+    "publishers": "bnn",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654a747c7176ef6f7b7b2709",
+    "booktitle": "nnb",
+    "authorname": "nbn",
+    "publishers": "nbnnb",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654a747c7176ef6f7b7b270a",
+    "booktitle": "kjkh",
+    "authorname": "hmhjk",
+    "publishers": "kjkjkh",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654a747c7176ef6f7b7b270b",
+    "booktitle": "khhhkj",
+    "authorname": "kjhhu",
+    "publishers": "jkhjkh",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654b1b99bbf26ff24366ac1d",
+    "booktitle": "vdv fv f ",
+    "authorname": "balajiu",
+    "publishers": "Publ",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654b6ba5e893f26e4fbdfebe",
+    "booktitle": "Mamu",
+    "authorname": "auth1",
+    "publishers": "pub1",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654b6ba5e893f26e4fbdfebf",
+    "booktitle": "tit2",
+    "authorname": "tit3",
+    "publishers": "tit4",
+    "programme": "pg",
+    "__v": 0
+  },
+  {
+    "_id": "654b6c445165922e04cb440d",
+    "booktitle": "Mamu",
+    "authorname": "auth1",
+    "publishers": "pub1",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654b6c445165922e04cb440e",
+    "booktitle": "tit2",
+    "authorname": "tit3",
+    "publishers": "tit4",
+    "programme": "pg",
+    "__v": 0
+  },
+  {
+    "_id": "654cb9a15a67d8e757e52097",
+    "booktitle": "mjjj",
+    "authorname": "pk",
+    "publishers": "nn",
+    "programme": "pg",
+    "__v": 0
+  },
+  {
+    "_id": "654d13652d39e4cbe3541999",
+    "booktitle": "book1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "pg",
+    "__v": 0
+  },
+  {
+    "_id": "654d13652d39e4cbe354199a",
+    "booktitle": "jhg",
+    "authorname": "jghj",
+    "publishers": "ghg",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d13652d39e4cbe354199b",
+    "booktitle": "hjgjhg",
+    "authorname": "hjg",
+    "publishers": "hgh",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d13b28f0cb2278360b138",
+    "booktitle": "book1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "pg",
+    "__v": 0
+  },
+  {
+    "_id": "654d13bfde576590a307b80b",
+    "booktitle": "book1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "pg",
+    "__v": 0
+  },
+  {
+    "_id": "654d13d135aff2bcb3157e8e",
+    "booktitle": "book1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "pg",
+    "__v": 0
+  },
+  {
+    "_id": "654d14358993f6684b36f152",
+    "booktitle": "Mamu",
+    "authorname": "auth1",
+    "publishers": "pub1",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d14358993f6684b36f153",
+    "booktitle": "tit2",
+    "authorname": "tit3",
+    "publishers": "tit4",
+    "programme": "pg",
+    "__v": 0
+  },
+  {
+    "_id": "654d14358993f6684b36f154",
+    "booktitle": "kbh",
+    "authorname": "kb",
+    "publishers": "bjh",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d960bc78c73ea3fcf2e70",
+    "booktitle": "Example Book",
+    "authorname": "Example Author",
+    "publishers": "Example Publisher",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d9636ce3ec6c12fef7d57",
+    "booktitle": "Example Book1",
+    "authorname": "Example Author1",
+    "publishers": "Example Publisher1",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d964562dcd0f8d9b9d28f",
+    "booktitle": "Title1",
+    "authorname": "author2",
+    "publishers": "wbkjsjd",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d9673b512fc2f1318b026",
+    "booktitle": "Title1",
+    "authorname": "author2",
+    "publishers": "wbkjsjd",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d96cbfb833a79fadab744",
+    "booktitle": "Title1",
+    "authorname": "author2",
+    "publishers": "wbkjsjd",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d96d82e21c7710be9dcd2",
+    "booktitle": "jnk",
+    "authorname": "www",
+    "publishers": "jafnsffsmf",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d9758420bae3eb33e4bb4",
+    "booktitle": "jnk",
+    "authorname": "www",
+    "publishers": "jafnsffsmf",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d9763b9dda4343bd07201",
+    "booktitle": "jnk",
+    "authorname": "Author",
+    "publishers": "wbkjsjd",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d9779bc4e3ec0961fb504",
+    "booktitle": "jnk",
+    "authorname": "Author",
+    "publishers": "wbkjsjd",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d97864cd728e3c7262891",
+    "booktitle": "Title1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d98d180621a10c7cca485",
+    "booktitle": "Title1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d99fcefa97429f74ed7c5",
+    "booktitle": "Title1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d9a1a8f009a0109d46ecd",
+    "booktitle": "Title1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d9a72a7c3bc1a773354f1",
+    "booktitle": "Title1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d9b3a2b0426a71f417bcf",
+    "booktitle": "Title1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d9d1fb541d35d7b0ec970",
+    "booktitle": "Title1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d9e39ef799e5acf422605",
+    "booktitle": "Title1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d9e41b7cff4546b53b58f",
+    "booktitle": "Title1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654d9fea16d173103eab5471",
+    "booktitle": "Title1",
+    "authorname": "author2",
+    "publishers": "po",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654da04c640db5bf914398dc",
+    "booktitle": "jnk",
+    "authorname": "Author",
+    "publishers": "po",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654da0589639e86c6829c8b5",
+    "booktitle": "Mamu",
+    "authorname": "auth1",
+    "publishers": "pub1",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654da0589639e86c6829c8b6",
+    "booktitle": "tit2",
+    "authorname": "tit3",
+    "publishers": "tit4",
+    "programme": "pg",
+    "__v": 0
+  },
+  {
+    "_id": "654da0589639e86c6829c8b7",
+    "booktitle": "kbh",
+    "authorname": "kb",
+    "publishers": "bjh",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "654dd26e54cab4c9afe1689d",
+    "booktitle": "hello",
+    "authorname": "byee",
+    "publishers": "tata",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "655e32b3c6e070210d7fd1c6",
+    "booktitle": "Mathematic 2",
+    "authorname": "Bukkana Lokesh",
+    "publishers": "Room 219",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "6569c961ffda26d314fb4adf",
+    "booktitle": "bbaksjc",
+    "authorname": "jksadsa",
+    "publishers": "dsd",
+    "programme": "ug",
+    "__v": 0
+  },
+  {
+    "_id": "6569c9ad737a0b1659125823",
+    "booktitle": "bbaksjc",
+    "authorname": "jksadsa",
+    "publishers": "dsd",
+    "programme": "ug",
+    "__v": 0
+  }
+]

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/login-page.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+    <link rel="shortcut icon" href="/img/main logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/e5b53f0656.js" crossorigin="anonymous"></script>
+        <style>
+            #pass-eye-off{
+                display: none;
+            }
+            .ad-st-login{
+                display: none;
+            }
+            .change-password a:hover{
+                text-decoration: underline;
+            }
+        </style>
+
+    <title>Student Login - Library RUK</title>
+</head>
+<body>
+    <%- include('../partials/header.ejs') %>
+    <div class=" flex-r container">
+        <div class="flex-r login-wrapper">
+            <div class="login-text">
+                <div class="ruce-logo-container">
+                <div class="ruce-logo">
+                    <img src="/img/main logo.png">
+                </div>
+            </div>
+                <div class="heading">
+                <h1>Student login</h1>
+                <% if (errorMessage) { %>
+                    <p style="color: red; font-weight: 500;"><%= errorMessage %></p>
+                <% } %>
+                </div>
+                <form class="flex-c" method="post" action="/student">
+                    <div class="input-box">
+                        <span class="label">User name</span>
+                        <div class=" flex-r input">
+                            <input type="text" required placeholder="Enter Username" name="username">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="input-box">
+                        <span class="label">Password</span>
+                        <div class="flex-r input">
+                            <input type="password" required id="password" placeholder="Enter Password" name="password">
+                            <i class="fa-regular fa-eye" id="password-toggle"></i>
+                            <i class="fa-regular fa-eye-slash" id="pass-eye-off"></i>
+                        </div>
+                    </div>
+                    <span class="change-password"><a href="/student-change-pass" style="font-weight: 600; color: #00f;">Change Password</a></span>
+                    <input class="btn" type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <%- include('../partials/footer.ejs') %>
+    <script>
+        const passToggle = document.getElementById('password-toggle');
+        const passEyeOff = document.getElementById('pass-eye-off');
+        const password = document.getElementById('password');
+        passToggle.addEventListener('click' , ()=>{
+            password.setAttribute('type' , 'text');
+            passToggle.style.display="none";
+            passEyeOff.style.display="inline-block";
+        });
+        passEyeOff.addEventListener('click' , ()=>{
+            password.setAttribute('type' , 'password');
+            passToggle.style.display="inline-block";
+            passEyeOff.style.display="none";
+        })
+    </script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

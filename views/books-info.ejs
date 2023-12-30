@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+    <title>Books Info In Library - RUK</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="shortcut icon" href="/img/main logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/9aa2ea7f69.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/books-info.css">
+    <style>
+        .main-contanier-books-info-for-btm-footer{
+            min-height: 100vh;
+            width: 100%;
+            padding: 2rem;
+            padding-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <%- include('partials/logout-header.ejs') %>
+    <div class="main-contanier-books-info-for-btm-footer">
+    <div class="main">
+        <div class="table__header">
+            <div class="table-header-heading">
+                <h1 style="font-size: 1.6rem; color: #03045e;">Books Available in Library</h1>
+            </div>
+            <div class="table-filter">
+
+                <label for="status-filter">Filter by Programme:</label>
+                <select id="status-filter">
+                    <option value="all">All</option>
+                    <option value="ug">UG Course</option>
+                    <option value="pg">PG Course</option>
+                </select>
+            </div>
+            
+            <div class="input-group">
+                <input type="text" id="search-input" placeholder="Search...">
+                <!-- <input type="search" placeholder="Search Book..."> -->
+                <img src="/img/search.png">
+            </div>
+            <div class="books-request-container">
+
+                <a href="/bookrequest" style="text-align: center; color: #03045e; font-weight: 500; font-size: .8rem;">
+                    <p>Cannot find the book you are looking for ?</p>
+                    <p> Request missing book..</p>
+                </a>
+
+            </div>
+        </div>
+
+        <div id="table-container">
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th> S.NO </th>
+                        <th> BOOK TITLE</th>
+                        <th> AUTHOR</th>
+                        <th> PUBLISHER</th>
+                        <th> Programme</th>
+                    </tr>
+                </thead>
+                <div class="table__body">
+
+                    <tbody id="table-body"></tbody>
+                </div>
+            </table>
+        </div>
+    </div>
+    <ul class="pagination" id="pagination"></ul>
+</div>
+<%- include('partials/footer.ejs') %>
+<script src="/js/index.js"></script>
+    <script src="/js/table.js"></script>
+    <% if(showAlert) {%>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <script>
+            const dynamicMessage = '<%= alertMessege %>';
+            Swal.fire({
+                title: 'Success!',
+                text: dynamicMessage,
+                icon: 'success'
+            });
+        </script>
+
+        <% } %>
+</body>
+
+</html>

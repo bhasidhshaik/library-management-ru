@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+    <title>Books Info In Library - RUK</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="shortcut icon" href="/img/main logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/books-info.css">
+    <script src="https://kit.fontawesome.com/9aa2ea7f69.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th> Book Name </th>
+                <th> Student Name</th>
+                <th> UG/PG</th>
+                <th> Student Roll</th>
+            </tr>
+        </thead>
+        <div class="table__body">
+
+            <tbody id="table-body"></tbody>
+        </div>
+    </table>
+</div>
+<script>
+   fetch('/json/reqbooks.json')
+    .then(response => response.json())
+    .then(data => {
+      const tableBody = document.getElementById('table-body');
+      
+      // Loop through the data and create table rows
+      data.forEach(item => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${item.bookName}</td>
+          <td>${item.studentName}</td>
+          <td>${item.studentProgramme}</td>
+          <td>${item.studentRoll}</td>
+        `;
+        tableBody.appendChild(row);
+      });
+    })
+    .catch(error => {
+      console.error('Error loading JSON data:', error);
+    });
+</script>
+</body>
+</html>

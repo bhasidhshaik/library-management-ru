@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+    <title>Central Library Rayalaseema University Kurnool</title>
+    <!-- <link rel="shortcut icon" href="public/img/main logo.png" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="/img/main logo.png" type="image/x-icon">
+    <link id="loader" rel="stylesheet" href="/styles/loader.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/9aa2ea7f69.js" crossorigin="anonymous"></script>
+<style>
+    .marquee1 {
+        width: 100%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(255, 8, 0);
+}
+.marquee1 i{
+    color: #00f;
+}
+.lib-profile-mange{
+    padding: 0 0 0 3rem !important;
+}
+@media (max-width : 768px){
+    .lib-profile-mange{
+    padding: 0 !important;
+}
+}
+</style>
+    <script>
+        function performTask() {
+console.log("Loading Styles Are Applied ");
+$('#loader').remove();
+}
+
+function checkPageLoaded() {
+if (document.readyState === "complete") {
+
+  performTask();
+} else {
+  
+  setTimeout(checkPageLoaded, 100); 
+}
+}
+$(document).ready(function () {
+checkPageLoaded();
+});
+    </script>
+   <style>
+    *{
+        scroll-behavior: smooth !important;
+    }
+   </style>
+</head>
+
+<body>
+
+    <!-- --------------------------------------Loader------------------------------------------------------------------------- -->
+    <div class="full-page-loader">
+    <div class="book">
+        <div class="inner">
+          <div class="left"></div>
+          <div class="middle"></div>
+          <div class="right"></div>
+        </div>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
+
+      <!-- ----------------------------------------Loader------------------------------------- -->
+   <%- include('partials/header.ejs') %>
+   <div class="marquee1"> <marquee behavior="alternate" direction=""><p><i class="fa-solid fa-clock"></i> &nbsp;Library Timings: &nbsp;Mon - Sat : 7:00 AM to 7:00 PM &nbsp;  &nbsp;<i class="fa-solid fa-clock"></i> &nbsp;Library will open on public holidays also Timings: 07:00AM to 02:00PM </p>
+   </marquee></div>
+    <main>
+        
+        <div class="carausole-container">
+            <div class="swiper">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"><img src="/img/central library6.jpg" alt="Carousel Image"></div>
+                    <div class="swiper-slide"><img src="/img/central library7.jpg" alt="Carousel Image"></div>
+                    <div class="swiper-slide"><img src="/img/central library8.jpg" alt="Carousel Image"></div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+        </div>
+        <div class="main-text-container">
+            <h1>Central Library Rayalaseema University , Kurnool</h1>
+            <div class="main-para-content">
+                <div class="main-para-content-para">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The library is well-equipped with a diverse range of
+                        resources, both in print and electronic formats, such as CD-ROMs, DVD-ROMs, online databases,
+                        books, journals, and more. Additionally, it has a Digital Library section with an institutional
+                        digital repository using DSpace, an open-source software. This repository stores research
+                        papers, theses, and other scholarly works for easy access throughout the institution.</p>
+
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notably, the library's digital repository not only offers
+                        widespread access but also ensures the preservation of the institution's intellectual output for
+                        future generations. This combination of traditional and digital resources, along with the
+                        commitment to digital preservation, highlights the library's dedication to supporting academic
+                        and research needs while safeguarding knowledge for the future.</p>
+                </div>
+                <img src="/img/books2.jpg" alt="Library Inner View">
+            </div>
+        </div>
+        <!-- -------------------------Carousel----------- -->
+        <div class="books-carousel-container" id="topbooks">
+            <h2>Top Books in Library</h2>
+        <div class="carousel">
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="/books/civil.jpg">
+                    </div>
+                    <p><q>Civil Engineering</q></p>
+                    <h4>Author Name</h4>
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="/books/data-mining.jpg">
+                    </div>
+                    <p><q>Data Mining</q></p>
+                    <h4>Author Name</h4>
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="/books/datastructures.jpg">
+                    </div>
+                    <p><q>Data Structures</q></p>
+                    <h4>Author Name</h4>
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="/books/de.jpg">
+                    </div>
+                    <p><q>Digital Electronics</q></p>
+                    <h4>Author Name</h4>
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="/books/fluid.webp">
+                    </div>
+                    <p><q>Fluid Mechanics</q></p>
+                    <h4>Author Name</h4>
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="/books/java.jpg">
+                    </div>
+                    <p><q>Java Programming</q></p>
+                    <h4>Author Name</h4>
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="/books/python.jpg">
+                    </div>
+                    <p><q>Python Programming</q></p>
+                    <h4>Author Name</h4>
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="/books/qunatum.jpg">
+                    </div>
+                    <p><q>Quantum Mechanics</q></p>
+                    <h4>Author Name</h4>
+                </div>
+            </a>
+          
+       </div>
+    </div>
+
+
+    <div class="main-text-container">
+        <h1>Central Library Management</h1>
+        <div class="main-para-content">
+            <img src="/img/demo profile.jpg" alt="Library Inner View" style="border: none;">
+            <div class="main-para-content-para">
+                <p class="lib-profile-mange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to the Central Library at Rayalaseema University, where knowledge meets innovation. Our mission is to support academic excellence by providing a diverse collection of books, digital resources, and state-of-the-art facilities. Our expert librarians are here to guide you, and our specialized collections cater to various disciplines. Join us in exploring the boundless world of learning and research at the heart of Rayalaseema University.</p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="library-details">
+        <div class="library-contact">
+            <h4><i class="fa-solid fa-address-card"></i>&nbsp;&nbsp;&nbsp;Contact Us</h4>
+            <div class="address-library">
+            <p class="librarian">Librarian</p>
+            <p class="librarian">Central Library</p>
+            <p class="librarian">Rayalaseema University , Kurnool</p>
+            <p class="librarian">Andhra Pradesh - 518007</p>
+        </div>
+        <div class="email-add">
+           <p>Library Email ID: <a href="mailto:library@ruk.ac.in">library@ruk.ac.in</a></p>
+        </div>
+        </div>
+    </div>
+
+    </main>
+        <%- include('partials/footer.ejs') %>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+
+            loop: true,
+
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+
+     <script
+     src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script>
+     $(document).ready(function(){
+       $('.carousel').carousel({
+               padding: 200
+       });
+       autoplay();
+       function autoplay() {
+           $('.carousel').carousel('next');
+           setTimeout(autoplay, 2500);
+       }
+     });
+   </script>
+   <script src="js/index.js"></script>
+</body>
+
+</html>
